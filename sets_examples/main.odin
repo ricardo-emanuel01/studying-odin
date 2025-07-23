@@ -13,6 +13,7 @@ two_sum :: proc(numbers: []int, target: int) -> bool {
         add_to_set(&visited_numbers, x)
     }
 
+    delete(visited_numbers)
     return false
 }
 

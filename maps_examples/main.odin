@@ -42,4 +42,6 @@ main :: proc() {
         }
     }
     get_ages(age_by_name, names2)
+
+    delete(age_by_name)
 }
