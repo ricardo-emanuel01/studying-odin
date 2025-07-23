@@ -1,4 +1,4 @@
-package dyn_array_exercise1
+package dyn_array_exercises1
 
 import "core:fmt"
 
